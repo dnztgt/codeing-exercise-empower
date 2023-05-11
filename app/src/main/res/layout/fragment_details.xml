@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".ui.details.DetailsFragment">
+
+    <TextView
+        android:id="@+id/textSsn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="SSN: ABC123" />
+
+    <TextView
+        android:id="@+id/textDateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Date of Birth: 05/02/2013" />
+
+    <TextView
+        android:id="@+id/textPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Phone Number: 123" />
+
+    <TextView
+        android:id="@+id/textAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Address: Earth" />
+
+</LinearLayout>
